@@ -30,7 +30,11 @@
                     <a href="{{ route('login') }}" class="px-4 py-2 text-gray-600 hover:text-blue-600 transition">Login</a>
                     
                     <!-- Register Button -->
-                    <a href="{{ route('register') }}" class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition">Register</a>
+                    <a href="{{ route('register') }}" class="px-4 py-2 bg-blue-400 text-white rounded-md hover:bg-blue-700 transition">Register</a>
+                </div>
+                <div>
+                    <!-- Donation Button -->
+                    <a href="{{route('donate') }}" class="px-4 py-2 bg-pink-400 text-white rounded-md hover:bg-pink-700 transition">Donation</a>
                 </div>
             </div>
         </div>
